@@ -1,0 +1,34 @@
+# Architectural Map: Gemini CLI Skill System
+High-density registry of agentic capabilities optimized for local execution and forensic analysis.
+
+## Core Entry Points
+- `104a.mfdb.bejson`: Central MFDB manifest (The Source of Truth).
+- `[skill-name]/SKILL.md`: Individual procedural instruction sets.
+
+## Module Index
+- `advanced-skill-builder`: Standardized architect for new skill development.
+- `agentic-doc-architect`: 2026-standard documentation generator.
+- `perceptual-decomposition`: Recursive forensic analysis and pattern recognition.
+- `persistent-update-protocol`: Staged refactoring framework with disk checkpoints.
+- `bejson-core-manager`: Definitive manager for BEJSON 104/104a/104db data operations.
+- `bejson-cognitive-state`: Agentic state management and security sandboxing.
+- `becss`: BEJSON-standardized CSS refactoring and OKLCH tokenization.
+- `concise-analysis-reporting`: High-density intelligence brief generator.
+- `post-analysis-reporting`: Formal forensic dossier and architectural report constructor.
+- `skill-registry-manager`: Administrative tool for registry auditing and federation.
+
+## Data Structures
+- `SkillRegistry (104a)`: Fields: `entity_name`, `file_path`, `description`, `version`.
+- `UpdateStaging (104)`: Fields for persistent task tracking and recovery.
+
+## External Dependencies
+- `Gemini CLI`: Primary runtime and tool orchestration layer.
+- `BEJSON/MFDB`: Core data exchange and storage standards.
+
+## Development Pathways
+- Sync: `cp -r ~/.gemini/skills/* ~/build/skill_system/`
+- Register: Update `104a.mfdb.bejson` manually or via `skill-registry-manager`.
+- Test: Use `perceptual-decomposition` to audit registry integrity.
+
+---
+*Generated for AI Agent Context Optimization*
