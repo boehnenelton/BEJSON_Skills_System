@@ -1,0 +1,18 @@
+{
+  "Format": "BEJSON",
+  "Format_Version": "104",
+  "Format_Creator": "Elton Boehnen",
+  "Records_Type": ["UpdateStaging"],
+  "Fields": [
+    { "name": "task_id", "type": "string" },
+    { "name": "description", "type": "string" },
+    { "name": "status", "type": "string" },
+    { "name": "files_impacted", "type": "array" },
+    { "name": "dependencies", "type": "array" },
+    { "name": "started_at", "type": "string" },
+    { "name": "completed_at", "type": "string" },
+    { "name": "verification_status", "type": "object" },
+    { "name": "rollback_notes", "type": "string" }
+  ],
+  "Values": []
+}

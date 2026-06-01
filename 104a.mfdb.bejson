@@ -1,0 +1,27 @@
+{
+  "Format": "BEJSON",
+  "Format_Version": "104a",
+  "Format_Creator": "Elton Boehnen",
+  "Registry_Name": "Advanced-Skill-System-Registry",
+  "Federation_Level": "Local-Master",
+  "MFDB_Version": "1.31",
+  "DB_Name": "SkillRegistry",
+  "Records_Type": ["mfdb"],
+  "Fields": [
+    { "name": "entity_name", "type": "string" },
+    { "name": "file_path",   "type": "string" },
+    { "name": "description", "type": "string" },
+    { "name": "version",     "type": "string" }
+  ],
+  "Values": [
+    ["advanced-skill-builder", "advanced-skill-builder/SKILL.md", "Standardized architect for building advanced Gemini CLI skills with progressive disclosure.", "1.1.0"],
+    ["skill-registry-manager", "skill-registry-manager/SKILL.md", "Administrative manager for auditing and syncing the Gemini CLI Skill Registry network.", "1.0.0"],
+    ["perceptual-decomposition", "perceptual-decomposition/SKILL.md", "Analyze complex systems through recursive forensic decomposition, pattern recognition, and intent modeling.", "1.2.0"],
+    ["post-analysis-reporting", "post-analysis-reporting/SKILL.md", "Construct highly structured, dense forensic dossiers and architectural reconstruction reports.", "1.0.1"],
+    ["concise-analysis-reporting", "concise-analysis-reporting/SKILL.md", "Construct high-density, abbreviated intelligence briefs and executive system-level audits.", "1.0.0"],
+    ["becss", "becss/SKILL.md", "Authoritative standard for BEJSON CSS (BECSS) refactoring and OKLCH tokenization.", "1.0.0"],
+    ["bejson-core-manager", "bejson-core-manager/SKILL.md", "Definitive manager for BEJSON 104/104a/104db core operations and field mapping.", "1.0.0"],
+    ["bejson-cognitive-state", "bejson-cognitive-state/SKILL.md", "Extension for agentic cognition, security sandboxing, and reactive state history.", "1.0.0"],
+    ["persistent-update-protocol", "persistent-update-protocol/SKILL.md", "Rigorous execution framework for staged, persistent codebase refactoring with crash-recovery.", "1.0.0"]
+  ]
+}
