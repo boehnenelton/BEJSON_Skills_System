@@ -36,16 +36,23 @@ Organize all CSS into the following Cascade Layers:
 ## Implementation Guide
 
 ### Reference the Standard
-Refer to [references/becss_standard.md](references/becss_standard.md) for the full specification of design tokens, naming conventions, and mobile-first requirements.
+Refer to [references/becss_standard.md](references/becss_standard.md) for the authoritative component registry (Card, Table, Stats Bar, etc.) and design tokens.
+
+### Layout Patterns
+Refer to [references/html3_layout_patterns.md](references/html3_layout_patterns.md) for high-level UI structures like Dashboards, Sidebars, and Headers that combine atomic components.
 
 ### Component Generation (Python)
 When generating HTML in Python, use the patterns found in [assets/becss_component_template.py](assets/becss_component_template.py) to ensure consistent BEM output and zero inline styles.
+
+## Authoritative Source
+The **HTML3 Master Libraries** (`Lib_PY/HTML`) are the definitive source for all naming and structural conventions. This skill and the `Standardized_HTML3` templates are synchronized to this master lead.
 
 ## Success Criteria
 - [ ] Every class is prefixed with `c-` or `u-`.
 - [ ] No inline `style` attributes in HTML output.
 - [ ] 100% OKLCH coverage for colors.
 - [ ] CSS is wrapped in appropriate `@layer` blocks.
+- [ ] Naming matches the master library component registry.
 
 ---
 *Author: Elton Boehnen*

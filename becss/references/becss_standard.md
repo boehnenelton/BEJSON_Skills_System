@@ -25,7 +25,21 @@ Reserved for single-purpose, high-specificity utility classes.
 ### BEM Syntax
 `c-block__element--modifier`
 
-## 3. Structural Layers (@layer)
+## 3. Component Registry (Master Standard)
+
+| Component | Root Class | Elements | Modifiers |
+| :--- | :--- | :--- | :--- |
+| **Card** | `.c-card` | `__title`, `__body` | `--brutal`, `--flat` |
+| **Stats Bar** | `.c-stats-bar` | `__item`, `__label`, `__value` | |
+| **Data Table** | `.c-table` | `thead`, `tbody`, `tr`, `th`, `td` | `--compact`, `--striped` |
+| **Subtabs** | `.c-subtabs` | `__btn` | `--active` |
+| **Sidebar** | `.c-sidebar` | `__top`, `__links`, `__link` | `--open` |
+| **Header** | `.c-header` | `__logo` | |
+| **Widget** | `.c-widget` | `__header`, `__body` | `--small`, `--medium`, `--large` |
+| **Gallery** | `.c-gallery-grid` | `.c-gallery-item`, `.c-gallery-item__label` | |
+| **Badges** | `.u-badge` | | `--active`, `--pending`, `--inactive` |
+
+## 4. Structural Layers (@layer)
 
 ```css
 @layer reset, base, layout, components, interactive;
