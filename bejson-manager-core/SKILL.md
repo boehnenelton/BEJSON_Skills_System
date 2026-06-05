@@ -1,14 +1,14 @@
 ---
-name: bejson-core-manager
+name: bejson-manager-core
 description: Definitive manager for BEJSON 104/104a/104db core operations. Use this skill to load, validate, and manipulate BEJSON data with advanced field mapping and positional integrity.
 ---
 
-# BEJSON Core Manager
+# BEJSON: Manager (Core Operations)
 
 This skill provides the authoritative implementation of the **BEJSON 104, 104a, and 104db** standards. It integrates core libraries and validators with advanced field-mapping capabilities.
 
 ## Core Mandates
-
+...
 ### 1. Positional Integrity
 ALL operations must maintain the strict ordering of the `Fields` array. Key-based lookups are implemented as a layer on top of positional indexing, never as a replacement.
 

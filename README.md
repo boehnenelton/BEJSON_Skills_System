@@ -1,6 +1,6 @@
 ---
 project: "Gemini-CLI-Skill-System"
-version: "1.3.1"
+version: "1.4.0"
 stack: ["BEJSON", "MFDB", "Bash", "Python"]
 entry_point: "104a.mfdb.bejson"
 agent_rules: "./AGENTS.md"
@@ -14,13 +14,13 @@ license: "MIT"
 ## ⚡ Quick Start
 ```bash
 # Register a new skill directory
-skill-registry-manager register ./my-new-skill
+skills-registry-manager register ./my-new-skill
 ```
 
 ### Basic Skill Activation
 ```typescript
 // Internal logic for skill loading
-const architect = await agent.activate_skill("agentic-doc-architect");
+const architect = await agent.activate_skill("doc-architect-agentic");
 await architect.execute("Phase 1: Discovery");
 ```
 
@@ -33,22 +33,22 @@ This repository is optimized for **Agentic Experience (AX)**.
 ## 🛠️ Architecture & Intent
 ### Core Philosophy
 - **Modular Agency**: Every skill is a self-contained expert with its own assets, references, and scripts.
-- **Data Rigidity**: Use BEJSON 104/104a to ensure positional integrity and machine-readability.
+- **Category-First Naming**: Skills are organized by functional categories (e.g., `analysis-`, `post-analysis-`, `bejson-`) to improve discoverability and logical grouping.
 - **Progressive Disclosure**: Skills only load their full instructions when explicitly activated.
 
 ### Signal Pathways
 - **Manifest → Registry**: The `104a.mfdb.bejson` manifest maps human-readable names to procedural `SKILL.md` paths.
-- **State → Disk**: The `persistent-update-protocol` ensures complex refactors survive context resets.
+- **State → Disk**: The `protocol-update-persistent` ensures complex refactors survive context resets.
 
 ## 🎨 Visual Identity
 ![Skill System Banner](https://cdn.example.com/skill-system-banner.svg)
-*Theme: Forensic Architect | Palette: OKLCH (Standardized in becss)*
+*Theme: Forensic Architect | Palette: OKLCH (Standardized in css-becss)*
 
 ## 🤝 Contributing
 We use **Surgical Updates**. 
-1. Map your skill logic to the `advanced-skill-builder` template.
+1. Map your skill logic to the `skills-builder` template.
 2. Synchronize active skills to the `~/build/skill_system/` backup.
 3. Update the registry manifest with incremental versioning.
 
 ---
-License: MIT | Relational ID: gcli-skill-sys-v1
+License: MIT | Relational ID: gcli-skill-sys-v2

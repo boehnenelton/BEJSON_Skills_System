@@ -1,9 +1,9 @@
 ---
-name: skill-registry-manager
+name: skills-registry-manager
 description: Administrative manager for the Gemini CLI Skill Registry. Use this skill when the user needs to register new skills, audit the existing network, or sync skill metadata with the 104a.mfdb.bejson manifest.
 ---
 
-# Skill Registry Manager
+# Skills Registry Manager
 
 This skill manages the central registry of the skill system. It ensures that every skill in the network is correctly documented, versioned, and discoverable via the BEJSON 104a manifest.
 
@@ -19,6 +19,10 @@ This skill manages the central registry of the skill system. It ensures that eve
 
 - **Registry Schema**: See the technical appendix in `network-design.md` for the exact BEJSON 104a structure.
 - **Federation Protocols**: Refer to the "Federation Model" section for cross-node registry syncing.
+
+## Synergy & Awareness
+- **Build Integration**: Works in tandem with `skills-builder` to ensure all newly created skills are properly indexed.
+- **Data Integrity**: Relies on `bejson-manager-core` for validating manifest schema and positional integrity.
 
 ## Compliance Checklist
 

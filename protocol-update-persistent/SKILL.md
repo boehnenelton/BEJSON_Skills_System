@@ -1,4 +1,9 @@
-# Persistent Update Protocol
+---
+name: protocol-update-persistent
+description: Rigorous execution framework for staged, persistent codebase refactoring with crash-recovery. Use this skill for long-running, multi-step updates that require disk-based state persistence.
+---
+
+# Protocol: Persistent Update (Crash-Resilient Execution)
 
 Rigorous execution framework for staged, persistent codebase refactoring with crash-recovery, staging-checkpoints, and verifiable task tracking.
 
@@ -34,6 +39,10 @@ Rigorous execution framework for staged, persistent codebase refactoring with cr
 1.  **Final Validation**: Run global integration tests and lints.
 2.  **Forensic Reporting**: Produce a final verification report summarizing all tasks and outcomes.
 3.  **State Archiving**: Move the final staging checklist to `./framework/logs/reports/`.
+
+## Synergy & Awareness
+- **Data Integrity**: Uses `bejson-manager-core` logic for persistent staging file schema validation.
+- **Reporting**: Feeds final verification reports into `post-analysis-reporting-in-depth` for forensic archiving.
 
 ## Reasoning Constraints
 - **Zero Memory Reliance**: Never rely on conversational context for state; the disk is the source of truth.

@@ -1,9 +1,9 @@
 ---
-name: perceptual-decomposition
+name: analysis-perceptual-decomposition
 description: Analyze complex systems through recursive forensic decomposition, pattern recognition, and conceptual synthesis. Use this skill for architectural auditing, behavioral modeling, signal detection, identity recognition, intent modeling, and deep system understanding.
 ---
 
-# Perceptual Decomposition & Conceptual Pattern Recognition
+# Analysis: Perceptual Decomposition & Conceptual Pattern Recognition
 
 This skill implements a rigorous, layered protocol for analyzing systems not as isolated objects, but as interacting fragments, relationships, and emergent behaviors.
 
@@ -38,8 +38,8 @@ Follow these phases sequentially. Do not collapse ambiguity or classify prematur
 
 ## Reporting Handoff Protocol
 Once Phase 5 is complete and a stable conceptual awareness model is established, you MUST evaluate the need for formal documentation:
-- **High-Density / Forensic / Detailed**: Transition to `post-analysis-reporting`.
-- **High-Abstraction / Executive / Brief**: Transition to `concise-analysis-reporting`.
+- **High-Density / Forensic / Detailed**: Transition to `post-analysis-reporting-in-depth`.
+- **High-Abstraction / Executive / Brief**: Transition to `post-analysis-reporting-concise`.
 
 ## Resource Navigation
 - **Detailed Protocol**: See [references/protocol_spec.md](references/protocol_spec.md) for micro-component analysis and intent recognition rules.

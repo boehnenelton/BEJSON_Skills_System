@@ -1,14 +1,14 @@
 ---
-name: bejson-cognitive-state
+name: bejson-state-cognitive
 description: Extension skill for managing agentic cognition, reactive state, and autonomous deployment. Use this skill for Hive Mind orchestration, security sandboxing, persistent session management with signal-file logic, and tool forging.
 ---
 
-# BEJSON Cognitive State Manager
+# BEJSON: State (Cognitive & Agentic)
 
 This skill extends the BEJSON core with high-level cognitive, state management, and autonomous deployment functions. It implements the "Cortical" layer of the agentic ecosystem, focusing on awareness, persistence, and safe experimentation.
 
 ## Core Mandates
-
+...
 ### 1. Security First
 All cognitive operations MUST pass through the `bejson_cognition_check_sandbox` protocol to prevent unauthorized tool forging or sub-agent spawning in restricted environments.
 

@@ -5,30 +5,36 @@ High-density registry of agentic capabilities optimized for local execution and 
 - `104a.mfdb.bejson`: Central MFDB manifest (The Source of Truth).
 - `[skill-name]/SKILL.md`: Individual procedural instruction sets.
 
-## Module Index
-- `advanced-skill-builder`: Standardized architect for new skill development.
-- `agentic-doc-architect`: 2026-standard documentation generator.
-- `perceptual-decomposition`: Recursive forensic analysis and pattern recognition.
-- `persistent-update-protocol`: Staged refactoring framework with disk checkpoints.
-- `bejson-core-manager`: Definitive manager for BEJSON 104/104a/104db data operations.
-- `bejson-cognitive-state`: Agentic state management and security sandboxing.
-- `becss`: BEJSON-standardized CSS refactoring and OKLCH tokenization.
-- `concise-analysis-reporting`: High-density intelligence brief generator.
-- `post-analysis-reporting`: Formal forensic dossier and architectural report constructor.
-- `skill-registry-manager`: Administrative tool for registry auditing and federation.
+## Module Index (Categorized)
+
+### Skills Management
+- `skills-builder`: Standardized architect for new skill development and packaging.
+- `skills-registry-manager`: Administrative tool for registry auditing, syncing, and federation.
+
+### Analysis & Reporting
+- `analysis-perceptual-decomposition`: Recursive forensic analysis, pattern recognition, and intent modeling.
+- `post-analysis-reporting-in-depth`: Formal forensic dossier and architectural reconstruction report constructor.
+- `post-analysis-reporting-concise`: High-density intelligence brief and executive system-level audit generator.
+
+### BEJSON Framework
+- `bejson-manager-core`: Definitive manager for BEJSON 104/104a/104db core operations and field mapping.
+- `bejson-state-cognitive`: Agentic state management, security sandboxing, and Hive Mind orchestration.
+
+### Design & Documentation
+- `css-becss`: Authoritative standard for BEJSON CSS (BECSS) refactoring and OKLCH tokenization.
+- `doc-architect-agentic`: 2026-standard documentation generator for AX-optimized READMEs, llms.txt, and AGENTS.md.
+
+### Protocols
+- `protocol-update-persistent`: Staged refactoring framework with disk checkpoints and crash-recovery.
 
 ## Data Structures
 - `SkillRegistry (104a)`: Fields: `entity_name`, `file_path`, `description`, `version`.
 - `UpdateStaging (104)`: Fields for persistent task tracking and recovery.
 
-## External Dependencies
-- `Gemini CLI`: Primary runtime and tool orchestration layer.
-- `BEJSON/MFDB`: Core data exchange and storage standards.
-
 ## Development Pathways
 - Sync: `cp -r ~/.gemini/skills/* ~/build/skill_system/`
-- Register: Update `104a.mfdb.bejson` manually or via `skill-registry-manager`.
-- Test: Use `perceptual-decomposition` to audit registry integrity.
+- Register: Update `104a.mfdb.bejson` manually or via `skills-registry-manager`.
+- Test: Use `analysis-perceptual-decomposition` to audit registry integrity.
 
 ---
-*Generated for AI Agent Context Optimization*
+*Generated for AI Agent Context Optimization | Relational ID: gcli-skill-sys-map-v2*

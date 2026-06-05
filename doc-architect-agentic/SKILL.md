@@ -1,4 +1,9 @@
-# Agentic Doc Architect
+---
+name: doc-architect-agentic
+description: Architect for 2026 agent-ready documentation stacks. Use this skill to generate AX-optimized READMEs, llms.txt, and AGENTS.md for high-precision machine parsing.
+---
+
+# Doc Architect: Agentic (AX-Standard)
 
 Architect for 2026 agent-ready documentation stacks. Implements high-density, AX-optimized documentation including README.md, llms.txt, and AGENTS.md.
 
@@ -28,6 +33,10 @@ Architect for 2026 agent-ready documentation stacks. Implements high-density, AX
 ### Phase 5: Verification
 1.  **Token Efficiency Check**: Verify prose-to-fact ratio (Target: 20% prose, 80% facts).
 2.  **Agent Simulation**: Verify if an AI agent can map the repo using only the generated files.
+
+## Synergy & Awareness
+- **Build Flow**: Integrated into the `skills-builder` workflow to provide immediate documentation for new skills.
+- **Design Tokens**: Adheres to `css-becss` standards for OKLCH color tokenization in `DESIGN.md`.
 
 ## Reasoning Constraints
 - **AX First**: Design for machine parsing; humans will benefit from the resulting clarity.

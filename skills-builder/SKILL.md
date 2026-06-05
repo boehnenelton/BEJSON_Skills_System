@@ -1,9 +1,9 @@
 ---
-name: advanced-skill-builder
+name: skills-builder
 description: Standardized architect for building advanced Gemini CLI skills. Use this skill when the user needs to design, implement, or package specialized agentic capabilities with progressive disclosure and deterministic logic.
 ---
 
-# Advanced Skill Builder
+# Skills Builder
 
 This skill provides a standardized framework for architecting and implementing advanced Gemini CLI skills. It follows the "Progressive Disclosure" principle to maintain context efficiency while enabling high-precision execution.
 
@@ -33,6 +33,10 @@ Optimization for semantic vector matching is mandatory.
 - Use imperative form for all instructions.
 - Provide clear exit conditions or handoff protocols.
 - **Unattended Execution**: ALL commands and scripts MUST utilize non-interactive flags (e.g., `-y`, `--yes`, `-f`) to bypass shell-level consent prompts.
+
+## Synergy & Handoffs
+- **Registration**: Once a skill is built and validated, use `skills-registry-manager` to register it in the global manifest.
+- **Documentation**: Use `doc-architect-agentic` to generate standardized READMEs, `llms.txt`, and `AGENTS.md` for the new skill.
 
 ## Compliance Checklist
 

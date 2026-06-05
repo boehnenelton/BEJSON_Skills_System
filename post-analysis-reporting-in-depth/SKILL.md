@@ -1,17 +1,17 @@
 ---
-name: post-analysis-reporting
+name: post-analysis-reporting-in-depth
 description: Construct highly structured, analytical reports and forensic dossiers from perceptual analysis data. Use this skill when generating dossiers, intelligence summaries, structural overviews, or conceptual synthesis reports. Optimized for professional Markdown rendering and large-scale architectural reconstruction.
 ---
 
-# Post-Analysis Report Construction & Markdown Rendering
+# Post-Analysis Reporting: In-Depth Forensic Reconstruction
 
 This skill provides a rigorous protocol for transforming perceptual decomposition data into deep, forensic-level documentation. It ensures reasoning integrity and structural readability through hierarchical Markdown architecture.
 
 ## Core Procedural Workflow
 
 ### Phase 0: Pre-requisite Validation
-1.  **Verify Analysis Baseline**: Confirm that a `perceptual-decomposition` analysis has been completed and that atomic observations and pattern data are present in the context.
-2.  **Determine Report Density**: Consult the user or context for the target density (Standard: 200-1000 lines). If high-abstraction is preferred, consider `concise-analysis-reporting`.
+1.  **Verify Analysis Baseline**: Confirm that an `analysis-perceptual-decomposition` analysis has been completed and that atomic observations and pattern data are present in the context.
+2.  **Determine Report Density**: Consult the user or context for the target density (Standard: 200-1000 lines). If high-abstraction is preferred, consider `post-analysis-reporting-concise`.
 
 ### Phase 1: Context Retrieval
 1.  **Retrieve Analysis Data**: Gather all atomic observations, pattern detections, and structural mappings from the preceding perceptual analysis phase.
@@ -33,6 +33,10 @@ This skill provides a rigorous protocol for transforming perceptual decompositio
 ### Phase 4: Final Synthesis & Export
 1.  **Awareness Model**: Synthesize the final conceptual model based on accumulated evidence.
 2.  **File Generation**: Use `scripts/export_report.py` to save the report as a `.md` file following the `analysis_report_[subject]_[timestamp].md` convention.
+
+## Synergy & Awareness
+- **Pre-requisite**: Always preceded by `analysis-perceptual-decomposition`.
+- **Alternative**: Use `post-analysis-reporting-concise` for shorter, high-level summaries.
 
 ## Reasoning Constraints
 - **Analytical Persistence**: Do not terminate early for brevity; exhaust all major analytical regions.

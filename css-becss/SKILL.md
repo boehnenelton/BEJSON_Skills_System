@@ -1,14 +1,14 @@
 ---
-name: becss
+name: css-becss
 description: Authoritative standard for BEJSON CSS (BECSS). Use when Gemini CLI needs to refactor HTML components to adhere to BEM (c- prefix), migrate color palettes to OKLCH tokens, or implement Cascade Layers (@layer) for scalable UI architecture.
 ---
 
-# BECSS: BEJSON CSS Standard
+# CSS: BECSS (BEJSON CSS Standard)
 
 This skill provides the authoritative procedural guidance for implementing the **BECSS (BEJSON CSS)** standard in HTML3 and related BEJSON libraries.
 
 ## Core Mandates
-
+...
 ### 1. Namespace Isolation (The 'c-' Prefix)
 All component blocks MUST use the `c-` prefix. This prevents collisions and identifies the component as a modular BEJSON unit.
 - ✅ Correct: `.c-card`, `.c-table`, `.c-sidebar`
