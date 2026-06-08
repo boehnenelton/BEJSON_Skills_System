@@ -1,5 +1,5 @@
 ---
-name: skills-builder
+name: skill-builder
 description: Standardized architect for building advanced Gemini CLI skills. Use this skill to scaffold, bootstrap, architect, and orchestrate specialized agentic capabilities with progressive disclosure and logic-offloading.
 version: 1.2.0
 ---
@@ -37,10 +37,10 @@ Optimization for semantic vector matching is mandatory.
 - **Startup Logic**: ALL skills MUST check for the presence of their local `104a.mfdb.bejson` config on initialization.
 - **Unattended Execution**: ALL commands and scripts MUST utilize non-interactive flags (e.g., `-y`, `--yes`, `-f`) to bypass shell-level consent prompts.
 
-## Synergy & Handoffs
-- **Registration**: Once a skill is built and validated, use `skills-registry-manager` to register it in the global manifest.
-- **Automation**: Handoff implementation and validation to `gemini-skill-factory` for high-throughput creation.
-- **Documentation**: Use `doc-architect-agentic` to generate standardized READMEs, `llms.txt`, and `AGENTS.md`.
+# Synergy & Awareness
+- **Registration**: Handoff to `skill-registry` for registration in the global manifest.
+- **Automation**: Handoff to `skill-factory` for automated implementation and validation.
+- **Documentation**: Handoff to `doc-architect` for standardized documentation (README, llms.txt, AGENTS.md).
 
 ## Compliance Checklist
 

@@ -1,5 +1,5 @@
 ---
-name: gemini-skill-factory
+name: skill-factory
 description: High-throughput generation, validation, and packaging engine for Gemini CLI skills. Use this skill to automate the implementation loop and ensure structural compliance.
 version: 1.0.0
 ---
@@ -10,10 +10,10 @@ This skill provides the automated implementation engine for the Gemini CLI skill
 
 ## Core Workflow
 
-1.  **Generation**: Receive a skill blueprint (from `skills-builder` or `skill-creation-wizard`) and generate the required scripts and data files.
+1.  **Generation**: Receive a skill blueprint (from `skill-builder` or `skill-wizard`) and generate the required scripts and data files.
 2.  **Validation**: Use `python3 scripts/validate_skill.py <path>` to audit the skill's structural and positional integrity.
 3.  **Packaging**: Use `python3 scripts/package_skill.py <path>` to zip the skill and synchronize it to the build system source (`~/build/skill_system`).
-4.  **Handoff**: Pass the verified package to `skills-registry-manager` for final registration.
+4.  **Handoff**: Pass the verified package to `skill-registry` for final registration.
 
 ## Resource Navigation
 
@@ -32,9 +32,9 @@ This skill provides the automated implementation engine for the Gemini CLI skill
 - **Relational ID**: Every skill must have a unique ID registered in the master manifest.
 - **Portability**: All generated Python and Bash scripts must include the `SCRIPT_PATH` resolution block.
 
-## Synergy & Handoffs
-- **Input**: Accepts blueprints from `skills-builder`.
-- **Output**: Hands off verified packages to `skills-registry-manager`.
+# Synergy & Awareness
+- **Input**: Follows `skill-builder` for high-throughput creation blueprints.
+- **Deployment**: Uses `skill-registry` for automated deployment and synchronization.
 - **Backup**: Automatically synchronizes all new builds to `~/build/skill_system`.
 
 ## Compliance Checklist

@@ -1,5 +1,5 @@
 ---
-name: post-analysis-reporting-in-depth
+name: report-in-depth
 description: Construct highly structured, analytical reports and forensic dossiers from perceptual analysis data. Use this skill when generating dossiers, intelligence summaries, structural overviews, or conceptual synthesis reports. Optimized for professional Markdown rendering and large-scale architectural reconstruction.
 ---
 
@@ -10,8 +10,8 @@ This skill provides a rigorous protocol for transforming perceptual decompositio
 ## Core Procedural Workflow
 
 ### Phase 0: Pre-requisite Validation
-1.  **Verify Analysis Baseline**: Confirm that an `analysis-perceptual-decomposition` analysis has been completed and that atomic observations and pattern data are present in the context.
-2.  **Determine Report Density**: Consult the user or context for the target density (Standard: 200-1000 lines). If high-abstraction is preferred, consider `post-analysis-reporting-concise`.
+1.  **Verify Analysis Baseline**: Confirm that an `analysis-perceptual` analysis has been completed and that atomic observations and pattern data are present in the context.
+2.  **Determine Report Density**: Consult the user or context for the target density (Standard: 200-1000 lines). If high-abstraction is preferred, consider `report-concise`.
 
 ### Phase 1: Context Retrieval
 1.  **Retrieve Analysis Data**: Gather all atomic observations, pattern detections, and structural mappings from the preceding perceptual analysis phase.
@@ -34,9 +34,10 @@ This skill provides a rigorous protocol for transforming perceptual decompositio
 1.  **Awareness Model**: Synthesize the final conceptual model based on accumulated evidence.
 2.  **File Generation**: Use `scripts/export_report.py` to save the report as a `.md` file following the `analysis_report_[subject]_[timestamp].md` convention.
 
-## Synergy & Awareness
-- **Pre-requisite**: Always preceded by `analysis-perceptual-decomposition`.
-- **Alternative**: Use `post-analysis-reporting-concise` for shorter, high-level summaries.
+# Synergy & Awareness
+- **Sequence**: Follows `analysis-perceptual`.
+- **Archival**: Handoff to `doc-architect` for archival and system-wide visibility.
+- **Alternative**: Use `report-concise` for shorter, high-level summaries.
 
 ## Reasoning Constraints
 - **Analytical Persistence**: Do not terminate early for brevity; exhaust all major analytical regions.

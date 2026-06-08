@@ -1,5 +1,5 @@
 ---
-name: skill-creation-wizard
+name: skill-wizard
 description: Interactive multi-stage guidance for the Gemini CLI skill design protocol. Use this skill to walk through pre-construction, trigger engineering, and architectural mapping.
 version: 1.0.0
 ---
@@ -29,7 +29,7 @@ This skill provides a guided, interactive pipeline for designing advanced Gemini
 - **Goal**: Ensure the skill integrates seamlessly into the existing network (Builder -> Factory -> Manager).
 
 ### Stage 5: Implementation Handoff
-- **Action**: Invoke `skills-builder` (v1.2.0) to scaffold the structure and `gemini-skill-factory` to automate the build-validation loop.
+- **Action**: Invoke `skill-builder` (v1.2.0) to scaffold the structure and `skill-factory` to automate the build-validation loop.
 
 ## Resource Navigation
 
@@ -41,7 +41,11 @@ This skill provides a guided, interactive pipeline for designing advanced Gemini
 ### The Wizard's Guidance
 - **Interactive Checkpoints**: Stop and confirm with the user after each stage.
 - **AX-Optimization**: Prioritize machine-readability in all generated drafts.
-- **Deterministic Handoff**: Always conclude by providing the exact `skills-builder` or `factory` commands needed for the next step.
+- **Deterministic Handoff**: Always conclude by providing the exact `skill-builder` or `factory` commands needed for the next step.
+
+# Synergy & Awareness
+- **Gateway**: Precedes `skill-builder` as an interactive gateway for skill design protocol.
+- **Implementation**: Transitions to `skill-builder` for scaffolding and `skill-factory` for implementation.
 
 ## Compliance Checklist
 

@@ -17,23 +17,23 @@ from pathlib import Path
 from typing import Any, List, Optional, Set, Union
 
 try:
-    from lib_bejson_errors import *
-except ImportError:
-    # Fallback if registry is missing
-    E_INVALID_JSON = 1
-    E_MISSING_MANDATORY_KEY = 2
-    E_INVALID_FORMAT = 3
-    E_INVALID_VERSION = 4
-    E_INVALID_RECORDS_TYPE = 5
-    E_INVALID_FIELDS = 6
-    E_INVALID_VALUES = 7
-    E_TYPE_MISMATCH = 8
-    E_RECORD_LENGTH_MISMATCH = 9
-    E_RESERVED_KEY_COLLISION = 10
-    E_INVALID_RECORD_TYPE_PARENT = 11
-    E_NULL_VIOLATION = 12
-    E_FILE_NOT_FOUND = 13
-    E_PERMISSION_DENIED = 14
+    from lib_bejson_errors import (
+        E_INVALID_JSON,
+        E_MISSING_MANDATORY_KEY,
+        E_INVALID_FORMAT,
+        E_INVALID_VERSION,
+        E_INVALID_RECORDS_TYPE,
+        E_INVALID_FIELDS,
+        E_TYPE_MISMATCH,
+        E_RECORD_LENGTH_MISMATCH,
+        E_RESERVED_KEY_COLLISION,
+        E_INVALID_RECORD_TYPE_PARENT,
+        E_FILE_NOT_FOUND
+    )
+except ImportError as e:
+    import logging
+    logging.critical(f"[VALIDATOR] FATAL: Error registry unreachable: {e}")
+    raise SystemExit(1)
 
 VALID_VERSIONS = {"104", "104a", "104db"}
 MANDATORY_KEYS = ("Format", "Format_Version", "Format_Creator", "Records_Type", "Fields", "Values")

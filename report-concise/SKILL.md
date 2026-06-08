@@ -1,5 +1,5 @@
 ---
-name: post-analysis-reporting-concise
+name: report-concise
 description: Construct high-density, abbreviated analytical reports and intelligence briefs focused on clarity and rapid comprehension. Use this skill for executive summaries, system-level audits, or compact forensic analysis. Optimized for signal-to-noise ratio and cognitive compression.
 ---
 
@@ -10,8 +10,8 @@ This skill provides a high-efficiency protocol for transforming perceptual decom
 ## Core Procedural Workflow
 
 ### Phase 0: Pre-requisite Validation
-1.  **Verify Analysis Baseline**: Confirm that an `analysis-perceptual-decomposition` analysis has been completed.
-2.  **Verify Target Abstraction**: Confirm the user requires high-abstraction/executive summaries. If forensic depth is needed, transition to `post-analysis-reporting-in-depth`.
+1.  **Verify Analysis Baseline**: Confirm that an `analysis-perceptual` analysis has been completed.
+2.  **Verify Target Abstraction**: Confirm the user requires high-abstraction/executive summaries. If forensic depth is needed, transition to `report-in-depth`.
 
 ### Phase 1: Signal Distillation
 1.  **Identify Primary Drivers**: Locate the 3-5 most critical emergent behaviors and structural patterns from the analysis data.
@@ -32,9 +32,10 @@ This skill provides a high-efficiency protocol for transforming perceptual decom
 2.  **Precision Language**: Use technical terminology only where it provides significant compression.
 3.  **Visual Logic**: Ensure the Markdown layout guides the reader's eye to the most critical insights.
 
-## Synergy & Awareness
-- **Pre-requisite**: Always preceded by `analysis-perceptual-decomposition`.
-- **Alternative**: Use `post-analysis-reporting-in-depth` for exhaustive forensic documentation.
+# Synergy & Awareness
+- **Sequence**: Follows `analysis-perceptual`.
+- **Archival**: Handoff to `doc-architect` for archival and system-wide visibility.
+- **Alternative**: Use `report-in-depth` for exhaustive forensic documentation.
 
 ## Reasoning Constraints
 - **Signal Priority**: Never sacrifice clarity for brevity; only compress when it maintains or improves the signal.

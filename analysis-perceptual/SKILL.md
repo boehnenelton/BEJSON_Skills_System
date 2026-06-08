@@ -1,5 +1,5 @@
 ---
-name: analysis-perceptual-decomposition
+name: analysis-perceptual
 description: Analyze complex systems through recursive forensic decomposition, pattern recognition, and conceptual synthesis. Use this skill for architectural auditing, behavioral modeling, signal detection, identity recognition, intent modeling, and deep system understanding.
 ---
 
@@ -36,11 +36,6 @@ Follow these phases sequentially. Do not collapse ambiguity or classify prematur
 1.  **Identity Formation**: Answer what the system is attempting to do and what hidden assumptions organize it.
 2.  **Emergence Analysis**: Identify properties arising from multi-scale interaction.
 
-## Reporting Handoff Protocol
-Once Phase 5 is complete and a stable conceptual awareness model is established, you MUST evaluate the need for formal documentation:
-- **High-Density / Forensic / Detailed**: Transition to `post-analysis-reporting-in-depth`.
-- **High-Abstraction / Executive / Brief**: Transition to `post-analysis-reporting-concise`.
-
 ## Resource Navigation
 - **Detailed Protocol**: See [references/protocol_spec.md](references/protocol_spec.md) for micro-component analysis and intent recognition rules.
 - **Output Template**: Use [assets/report_template.md](assets/report_template.md) to structure the final perceptual analysis report.
@@ -64,6 +59,11 @@ Every analysis must conclude with:
 8.  **Unresolved Ambiguities**
 9.  **Alternative Interpretations**
 10. **Final Conceptual Awareness Model**
+
+# Synergy & Awareness
+- **Handoff**: Handoff to `report-in-depth` or `report-concise` for documentation.
+- **Validation**: Use `bejson-manager` for structured data validation.
+- **Refactoring**: Trigger `protocol-update` for identified architectural debt.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: bejson-state-cognitive
+name: bejson-state
 description: Extension skill for managing agentic cognition, reactive state, and autonomous deployment. Use this skill for Hive Mind orchestration, security sandboxing, persistent session management with signal-file logic, and tool forging.
 ---
 
@@ -49,6 +49,10 @@ Always utilize `bejson_cognition_safe_write` for matrix updates. It implements r
 - [ ] **Unattended**: All `chmod` and tool registrations are non-interactive.
 - [ ] **Durable Sessions**: Long-running tasks utilize signal-file logic for state preservation.
 - [ ] **Creator Mandate**: `Format_Creator` is "Elton Boehnen".
+
+# Synergy & Awareness
+- **Core Synergy**: Synergy with `bejson-manager`.
+- **Security**: Provides secure sandboxing and state history for all skills in the ecosystem.
 
 ---
 

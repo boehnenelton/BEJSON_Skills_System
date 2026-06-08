@@ -1,54 +1,40 @@
----
-project: "Gemini-CLI-Skill-System"
-version: "1.4.0"
-stack: ["BEJSON", "MFDB", "Bash", "Python"]
-entry_point: "104a.mfdb.bejson"
-agent_rules: "./AGENTS.md"
-context_map: "./llms.txt"
-license: "MIT"
----
+# Gemini CLI Skill System (Build Repository)
 
-# Gemini CLI Skill System 🚀
-> A modular, BEJSON-powered framework for extending Gemini CLI with persistent, expert agentic capabilities.
+This repository serves as the authoritative backup and development staging area for the Gemini CLI Skill System. Active skills are deployed to `~/.gemini/skills/` and must be synchronized here for persistence.
 
-## ⚡ Quick Start
-```bash
-# Register a new skill directory
-skills-registry-manager register ./my-new-skill
-```
+## System Architecture
 
-### Basic Skill Activation
-```typescript
-// Internal logic for skill loading
-const architect = await agent.activate_skill("doc-architect-agentic");
-await architect.execute("Phase 1: Discovery");
-```
+The Skill System follows a **Federated Expert Model**. Each skill is a self-contained directory containing:
+- `SKILL.md`: Procedural instructions and frontmatter.
+- `scripts/`: Deterministic logic and tools.
+- `references/`: Thick domain knowledge and schemas.
+- `assets/`: Templates and static resources.
 
-## 🧠 Agent Readiness
-This repository is optimized for **Agentic Experience (AX)**. 
-- **Architectural Map:** See [llms.txt](./llms.txt) for a high-density capability registry.
-- **Behavioral Rules:** See [AGENTS.md](./AGENTS.md) for sync protocols and BEJSON mandates.
-- **Standards:** All data follows the [BEJSON/MFDB Standard](../GEMINI.md).
+## Authoritative Registry
+The `104a.mfdb.bejson` manifest in this directory tracks all registered skills, their versions, and file paths.
 
-## 🛠️ Architecture & Intent
-### Core Philosophy
-- **Modular Agency**: Every skill is a self-contained expert with its own assets, references, and scripts.
-- **Category-First Naming**: Skills are organized by functional categories (e.g., `analysis-`, `post-analysis-`, `bejson-`) to improve discoverability and logical grouping.
-- **Progressive Disclosure**: Skills only load their full instructions when explicitly activated.
+## Skill Naming Convention
+Skills must follow the `category-name-modifier` pattern to ensure semantic clarity and ease of discovery:
+- `skill-builder`
+- `report-in-depth`
+- `bejson-manager`
 
-### Signal Pathways
-- **Manifest → Registry**: The `104a.mfdb.bejson` manifest maps human-readable names to procedural `SKILL.md` paths.
-- **State → Disk**: The `protocol-update-persistent` ensures complex refactors survive context resets.
+## Core Workflows
 
-## 🎨 Visual Identity
-![Skill System Banner](https://cdn.example.com/skill-system-banner.svg)
-*Theme: Forensic Architect | Palette: OKLCH (Standardized in css-becss)*
+### 1. Creating a Skill
+Use `skill-builder` to scaffold a new skill. Follow the `skill-wizard` protocol for interactive guidance.
 
-## 🤝 Contributing
-We use **Surgical Updates**. 
-1. Map your skill logic to the `skills-builder` template.
-2. Synchronize active skills to the `~/build/skill_system/` backup.
-3. Update the registry manifest with incremental versioning.
+### 2. Updating the Registry
+Use `skill-registry` to audit and sync changes across the local and build repositories.
+
+### 3. Forensic Analysis
+Use `analysis-perceptual` to verify system integrity and intent alignment.
 
 ---
-License: MIT | Relational ID: gcli-skill-sys-v2
+**Author:** Elton Boehnen
+**Contact:** eltonboehnen@gmail.com
+**Website:** boehnenelton2024.pages.dev
+**GitHub:** github.com/boehnenelton
+
+---
+*Relational ID: skill-system-main-readme-v2*
