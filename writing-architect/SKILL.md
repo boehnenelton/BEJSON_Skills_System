@@ -1,5 +1,5 @@
 ---
-name: doc-architect
+name: writing-architect
 description: Architect for 2026 agent-ready documentation stacks. Use this skill to generate AX-optimized READMEs, llms.txt, and AGENTS.md for high-precision machine parsing.
 ---
 

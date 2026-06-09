@@ -24,7 +24,7 @@ High-density registry of agentic capabilities optimized for local execution and 
 
 ### Design & Documentation
 - `css-becss`: Authoritative standard for BEJSON CSS (BECSS) refactoring and OKLCH tokenization.
-- `doc-architect`: 2026-standard documentation generator for AX-optimized READMEs, llms.txt, and AGENTS.md.
+- `writing-architect`: 2026-standard documentation generator for AX-optimized READMEs, llms.txt, and AGENTS.md.
 
 ### Protocols
 - `protocol-update`: Staged refactoring framework with disk checkpoints and crash-recovery.

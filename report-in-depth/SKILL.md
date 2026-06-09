@@ -36,7 +36,7 @@ This skill provides a rigorous protocol for transforming perceptual decompositio
 
 # Synergy & Awareness
 - **Sequence**: Follows `analysis-perceptual`.
-- **Archival**: Handoff to `doc-architect` for archival and system-wide visibility.
+- **Archival**: Handoff to `writing-architect` for archival and system-wide visibility.
 - **Alternative**: Use `report-concise` for shorter, high-level summaries.
 
 ## Reasoning Constraints

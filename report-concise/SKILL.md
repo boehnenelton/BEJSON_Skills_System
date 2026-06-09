@@ -34,7 +34,7 @@ This skill provides a high-efficiency protocol for transforming perceptual decom
 
 # Synergy & Awareness
 - **Sequence**: Follows `analysis-perceptual`.
-- **Archival**: Handoff to `doc-architect` for archival and system-wide visibility.
+- **Archival**: Handoff to `writing-architect` for archival and system-wide visibility.
 - **Alternative**: Use `report-in-depth` for exhaustive forensic documentation.
 
 ## Reasoning Constraints

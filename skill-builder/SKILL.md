@@ -40,7 +40,7 @@ Optimization for semantic vector matching is mandatory.
 # Synergy & Awareness
 - **Registration**: Handoff to `skill-registry` for registration in the global manifest.
 - **Automation**: Handoff to `skill-factory` for automated implementation and validation.
-- **Documentation**: Handoff to `doc-architect` for standardized documentation (README, llms.txt, AGENTS.md).
+- **Documentation**: Handoff to `writing-architect` for standardized documentation (README, llms.txt, AGENTS.md).
 
 ## Compliance Checklist
 

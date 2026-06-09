@@ -55,7 +55,7 @@ The **HTML3 Master Libraries** (`Lib_PY/HTML`) are the definitive source for all
 - [ ] Naming matches the master library component registry.
 
 # Synergy & Awareness
-- **Documentation**: Synergy with `doc-architect` for styled documentation.
+- **Documentation**: Synergy with `writing-architect` for styled documentation.
 - **UI Refactoring**: Component refactoring follows the BEJSON standard.
 
 ---
