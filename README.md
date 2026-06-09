@@ -26,6 +26,7 @@ Every component in this repository adheres to the AX-Standard hierarchy:
 | `analysis-perceptual` | Forensic | Recursive decomposition and behavioral modeling. |
 | `bejson-manager` | Data Core | Mastering atomic BEJSON 104/104db operations. |
 | `protocol-update` | Refactor | Rigorous, persistent codebase refactoring with recovery. |
+| `debugging-doublecheck` | Auditor | Mandatory self-suspicion protocol for forensic verification. |
 
 ## 4. Operational Protocols
 

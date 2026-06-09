@@ -14,7 +14,8 @@ This skill is invoked whenever a fix has been applied. It prohibits "optimism-ba
 
 ### Round 1: Syntax & Environment Audit
 => Execute(linter) -> Check(errors, warnings)
-=> Execute(grep) -> Search(introduced_strings) -> Verify(correct_escaping, valid_syntax)
+=> Invoke(Cli_Tokenized_Debugger) -> Scan(target_path) -> Review(minimalist_symbols)
+=> IF (symbols != Green): Read(.gcli_debug_report) -> Fix(errors)
 => Check(dependencies) -> Are all imports valid in the target environment?
 
 ### Round 2: Stress-State Verification
