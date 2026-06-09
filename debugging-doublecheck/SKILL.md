@@ -12,10 +12,10 @@ This skill is invoked whenever a fix has been applied. It prohibits "optimism-ba
 
 ## 2. Verification Rounds
 
-### Round 1: Syntax & Environment Audit
-=> Execute(linter) -> Check(errors, warnings)
-=> Invoke(Cli_Tokenized_Debugger) -> Scan(target_path) -> Review(minimalist_symbols)
-=> IF (symbols != Green): Read(.gcli_debug_report) -> Fix(errors)
+### Round 1: Forensic Syntax & Environment Audit
+=> Invoke(Cli_Tokenized_Debugger) -> Mode(scan) -> Review(symbols)
+=> IF (Red symbols appear): Read(.tokenized_debug_report) -> TargetedFix
+=> Mode(trace) -> Seed(changed_symbols) -> Audit(impact_map)
 => Check(dependencies) -> Are all imports valid in the target environment?
 
 ### Round 2: Stress-State Verification
