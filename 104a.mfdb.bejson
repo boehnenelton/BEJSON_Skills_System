@@ -6,27 +6,117 @@
   "Federation_Level": "Local-Master",
   "MFDB_Version": "1.31",
   "DB_Name": "SkillRegistry",
-  "Records_Type": ["mfdb"],
+  "Records_Type": [
+    "mfdb"
+  ],
   "Fields": [
-    { "name": "entity_name", "type": "string" },
-    { "name": "file_path",   "type": "string" },
-    { "name": "description", "type": "string" },
-    { "name": "version",     "type": "string" }
+    {
+      "name": "entity_name",
+      "type": "string"
+    },
+    {
+      "name": "file_path",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "version",
+      "type": "string"
+    }
   ],
   "Values": [
-    ["skill-builder", "skill-builder/SKILL.md", "Standardized architect for building advanced Gemini CLI skills. Scaffolds and orchestrates agentic capabilities.", "1.2.0"],
-    ["skill-registry", "skill-registry/SKILL.md", "Administrative manager for auditing and syncing the Gemini CLI Skill Registry network.", "1.0.0"],
-    ["analysis-perceptual", "analysis-perceptual/SKILL.md", "Analyze complex systems through recursive forensic decomposition, pattern recognition, and intent modeling.", "1.2.0"],
-    ["report-in-depth", "report-in-depth/SKILL.md", "Construct highly structured, dense forensic dossiers and architectural reconstruction reports.", "1.0.1"],
-    ["report-concise", "report-concise/SKILL.md", "Construct high-density, abbreviated intelligence briefs and executive system-level audits.", "1.0.0"],
-    ["css-becss", "css-becss/SKILL.md", "Authoritative standard for BEJSON CSS (BECSS) refactoring and OKLCH tokenization.", "1.0.0"],
-    ["bejson-manager", "bejson-manager/SKILL.md", "Definitive manager for BEJSON 104/104a/104db core operations and field mapping.", "1.0.0"],
-    ["bejson-state", "bejson-state/SKILL.md", "Extension for agentic cognition, security sandboxing, and reactive state history.", "1.0.0"],
-    ["protocol-update", "protocol-update/SKILL.md", "Rigorous execution framework for staged, persistent codebase refactoring with crash-recovery.", "1.0.0"],
-    ["writing-architect", "writing-architect/SKILL.md", "Architect for 2026 agent-ready documentation stacks including AX-optimized READMEs, llms.txt, and AGENTS.md.", "1.0.0"],
-    ["skill-factory", "skill-factory/SKILL.md", "High-throughput generation, validation, and packaging engine for Gemini CLI skills.", "1.0.0"],
-    ["skill-wizard", "skill-wizard/SKILL.md", "Interactive multi-stage guidance for the Gemini CLI skill design protocol.", "1.0.0"],
-    ["writing-readme", "writing-readme/SKILL.md", "Specialized skill for crafting 2026-standard GitHub READMEs focused on the Human-Agent Interop stack.", "1.0.0"],
-    ["writing-documentation", "writing-documentation/SKILL.md", "High-density 2026-standard documentation writer focused on AX (Agent Experience) and operational contracts.", "1.0.0"]
+    [
+      "skill-builder",
+      "skill-builder/SKILL.md",
+      "Standardized architect for building advanced Gemini CLI skills. Scaffolds and orchestrates agentic capabilities.",
+      "1.2.0"
+    ],
+    [
+      "skill-registry",
+      "skill-registry/SKILL.md",
+      "Administrative manager for auditing and syncing the Gemini CLI Skill Registry network.",
+      "1.0.0"
+    ],
+    [
+      "analysis-perceptual",
+      "analysis-perceptual/SKILL.md",
+      "Analyze complex systems through recursive forensic decomposition, pattern recognition, and intent modeling.",
+      "1.2.0"
+    ],
+    [
+      "report-in-depth",
+      "report-in-depth/SKILL.md",
+      "Construct highly structured, dense forensic dossiers and architectural reconstruction reports.",
+      "1.0.1"
+    ],
+    [
+      "report-concise",
+      "report-concise/SKILL.md",
+      "Construct high-density, abbreviated intelligence briefs and executive system-level audits.",
+      "1.0.0"
+    ],
+    [
+      "css-becss",
+      "css-becss/SKILL.md",
+      "Authoritative standard for BEJSON CSS (BECSS) refactoring and OKLCH tokenization.",
+      "1.0.0"
+    ],
+    [
+      "bejson-manager",
+      "bejson-manager/SKILL.md",
+      "Definitive manager for BEJSON 104/104a/104db core operations and field mapping.",
+      "1.0.0"
+    ],
+    [
+      "bejson-state",
+      "bejson-state/SKILL.md",
+      "Extension for agentic cognition, security sandboxing, and reactive state history.",
+      "1.0.0"
+    ],
+    [
+      "protocol-update",
+      "protocol-update/SKILL.md",
+      "Rigorous execution framework for staged, persistent codebase refactoring with crash-recovery.",
+      "1.0.0"
+    ],
+    [
+      "writing-architect",
+      "writing-architect/SKILL.md",
+      "Architect for 2026 agent-ready documentation stacks including AX-optimized READMEs, llms.txt, and AGENTS.md.",
+      "1.0.0"
+    ],
+    [
+      "skill-factory",
+      "skill-factory/SKILL.md",
+      "High-throughput generation, validation, and packaging engine for Gemini CLI skills.",
+      "1.0.0"
+    ],
+    [
+      "skill-wizard",
+      "skill-wizard/SKILL.md",
+      "Interactive multi-stage guidance for the Gemini CLI skill design protocol.",
+      "1.0.0"
+    ],
+    [
+      "writing-readme",
+      "writing-readme/SKILL.md",
+      "Specialized skill for crafting 2026-standard GitHub READMEs focused on the Human-Agent Interop stack.",
+      "1.0.0"
+    ],
+    [
+      "writing-documentation",
+      "writing-documentation/SKILL.md",
+      "High-density 2026-standard documentation writer focused on AX (Agent Experience) and operational contracts.",
+      "1.0.0"
+    ],
+    [
+      "debugging-doublecheck",
+      "debugging-doublecheck/SKILL.md",
+      "Mandatory self-audit protocol to verify fixes and hunt for regressions.",
+      "1.0.0"
+    ]
   ]
 }
