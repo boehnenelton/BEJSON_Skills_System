@@ -1,0 +1,2 @@
+description = "Generate robot-relay beep-coded commit message for staged changes"
+prompt = "Generate a commit message for the current staged changes. Conventional Commits format. Prefix subject with beep signal: 🟢 · bip · for routine (feat/docs/chore/refactor), 🟢 ·· bip bip ·· for notable (perf/test/build), 🔴 · BEEP · for breaking changes, 🔴 ·· BEEP BEEP ·· for security patches, 🔴 ··· BEEEEEP ··· for active incident hotfix. Subject: ≤50 chars, imperative verb, no trailing period. Body only when causality isn't self-evident. Why over what. Issue refs at end."

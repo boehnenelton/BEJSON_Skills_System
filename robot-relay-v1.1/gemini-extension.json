@@ -1,0 +1,6 @@
+{
+  "name": "robot-relay",
+  "description": "Robot Relay — beep-coded signal protocol. Green beeps inform. Red beeps escalate. The longer the beep, the more serious the signal. Includes 3 sub-agents (rr-scout, rr-fix, rr-audit) and 4 slash commands.",
+  "version": "1.1.0",
+  "contextFileName": "ROBOT_RELAY.md"
+}

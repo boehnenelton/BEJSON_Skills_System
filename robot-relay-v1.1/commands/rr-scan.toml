@@ -1,0 +1,2 @@
+description = "Scan code changes with robot-relay beep severity signals"
+prompt = "Scan the current code changes. One signal per finding. Format: path:line: <beep> <fault>. <fix>. Beep scale: 🟢 · bip · = NIT (style/naming, author may discard), 🟢 ·· bip bip ·· = QUERY (need intent), 🔴 · BEEP · = RISK (fragile/edge case), 🔴 ·· BEEP BEEP ·· = BUG (broken behavior), 🔴 ··· BEEEEEP ··· = BLOCK (do not merge, incident-class). Longer beep = more serious. Skip praise. Skip formatting nits unless meaning changes. Zero findings: 🟢 ·· bip bip ·· No signals. Clear. End with totals line."
