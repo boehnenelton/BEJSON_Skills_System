@@ -54,3 +54,7 @@ Always utilize the `atomic_write` pattern. For relational datasets (104db), ensu
 
 ---
 *Relational ID: bejson-core-manager-001*
+
+## See Also
+- `analysis-perceptual`: For understanding the conceptual intent behind the data structures.
+- `bejson-state`: For managing the lifecycle of relational entities.

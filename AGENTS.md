@@ -9,6 +9,12 @@ The Skill System is a modular, federated registry of procedural "expert modules.
 - **Constraint C**: All new skills MUST include an `AUTHOR CREDIT` block and a `Relational ID`.
 - **Constraint D**: Follow the `category-name-modifier` naming convention (e.g., `report-post-analysis-concise`).
 
+## Skill Awareness & Cross-Referencing
+- **Trigger Awareness**: When activating a skill, check for related skills in the `See Also` section of the `SKILL.md` file.
+- **Coordination**: If a task requires both structural data management and perceptual analysis, activate `bejson-manager` and `analysis-perceptual` in tandem.
+- **Dependency Tracking**: Use the `dependencies` key in the `104a.mfdb.bejson` manifest to identify required sibling skills.
+- **Recursive Triggers**: High-level skills (e.g., `skill-builder`) may recursively trigger low-level skills (e.g., `bejson-manager`) to ensure atomic integrity at every layer.
+
 ## Task Execution Protocol
 1. **Analyze**: Identify the required capability and check the registry (`104a.mfdb.bejson`).
 2. **Strategy**: Propose skill activation or creation using the `skill-builder` protocol.

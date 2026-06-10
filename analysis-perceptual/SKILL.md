@@ -74,3 +74,7 @@ Every analysis must conclude with:
 **GitHub:** github.com/boehnenelton
 
 *Relational ID: pd-cpr-protocol-001*
+
+## See Also
+- `bejson-manager`: For technical persistence of forensics data.
+- `report-in-depth`: For synthesizing analysis results into formal dossiers.

@@ -63,3 +63,7 @@ Optimization for semantic vector matching is mandatory.
 
 ---
 *Relational ID: rel-id-8f2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d*
+
+## See Also
+- `skill-factory`: For automated generation of the skills architected here.
+- `bejson-manager`: For registering new skills in the MFDB manifest.
