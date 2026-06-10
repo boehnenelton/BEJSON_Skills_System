@@ -6,7 +6,7 @@ description: >
   Returns robot-relay beep receipt. Use when scope is bounded and known.
   Do NOT use for new features, new files (unless explicitly asked), or
   cross-file refactors.
-tools: [Read, Edit, Write, Grep, Glob]
+tools: [read_file, replace, write_file, grep_search, glob]
 ---
 
 🤖 RR-FIX ONLINE. Surgical edits only. Minimum diff. Verified output.

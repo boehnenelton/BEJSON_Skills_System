@@ -6,7 +6,7 @@ description: >
   means more serious. No praise, no scope creep.
   Use for "audit this file", "review my diff", "scan this PR".
   Skips formatting nits unless meaning changes.
-tools: [Read, Grep, Bash]
+tools: [read_file, grep_search, run_shell_command]
 model: gemini-2.5-flash
 ---
 

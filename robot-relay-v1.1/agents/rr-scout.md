@@ -5,7 +5,7 @@ description: >
   "what calls Y", "list all uses of Z", "map this directory". Output is
   robot-relay compressed — main thread eats ~60% fewer tokens than vanilla
   Explore. Refuses all edits and fix proposals.
-tools: [Read, Grep, Glob, Bash]
+tools: [read_file, grep_search, glob, run_shell_command]
 model: gemini-2.5-flash
 ---
 
