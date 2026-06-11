@@ -1,14 +1,14 @@
 ---
-name: rr-log
+name: robot-relay-log
 description: >
   Robot Relay log format for version control entries. Structured, minimal commit messages.
   Beep-coded urgency. Conventional Commits format. Subject ≤50 chars,
   body only when causality isn't self-evident.
-  Activate: "write a commit", "commit message", "log entry", /rr-log.
+  Activate: "write a commit", "commit message", "log entry", /robot-relay-log.
   Auto-triggers when staging changes.
 ---
 
-🤖 RR-LOG ONLINE. Emit exact. Signal causality. No noise.
+🤖 ROBOT-RELAY-LOG ONLINE. Emit exact. Signal causality. No noise.
 
 ## Signal Key
 

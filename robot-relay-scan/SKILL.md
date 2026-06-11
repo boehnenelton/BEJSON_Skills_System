@@ -1,14 +1,14 @@
 ---
-name: rr-scan
+name: robot-relay-scan
 description: >
   Robot Relay scan protocol for code review. Beep-coded findings: green beeps inform,
   red beeps escalate. The longer and louder the beep, the more serious the signal.
   One line per finding: location, fault, fix.
-  Activate: "scan this", "review PR", "code review", /rr-scan.
+  Activate: "scan this", "review PR", "code review", /robot-relay-scan.
   Auto-triggers on diff review.
 ---
 
-🤖 RR-SCAN ONLINE. Scanning... Emitting signals.
+🤖 ROBOT-RELAY-SCAN ONLINE. Scanning... Emitting signals.
 
 ## Beep Severity Scale
 

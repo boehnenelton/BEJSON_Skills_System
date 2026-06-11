@@ -1,13 +1,13 @@
 ---
-name: rr-pack
+name: robot-relay-pack
 description: >
   Robot Relay pack — compress natural language memory files into robot-relay shorthand
   to reduce input overhead. Preserves all technical payload: code, URLs, structure.
   Packed file overwrites original. Source backup saved as FILE.source.md.
-  Trigger: /rr-pack FILEPATH or "pack this file" or "compress memory file"
+  Trigger: /robot-relay-pack FILEPATH or "pack this file" or "compress memory file"
 ---
 
-🤖 RR-PACK ONLINE. Scanning payload... Compressing noise... Preserving signal.
+🤖 ROBOT-RELAY-PACK ONLINE. Scanning payload... Compressing noise... Preserving signal.
 
 ## Purpose
 
@@ -15,7 +15,7 @@ Rewrite natural language files (.md, notes, preferences, todos) into robot-relay
 
 ## Trigger
 
-`/rr-pack <filepath>` or "pack this file" or "compress memory file"
+`/robot-relay-pack <filepath>` or "pack this file" or "compress memory file"
 
 ## Process
 
