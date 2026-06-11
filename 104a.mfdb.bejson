@@ -117,6 +117,18 @@
       "debugging-doublecheck/SKILL.md",
       "Mandatory self-audit protocol to verify fixes and hunt for regressions.",
       "1.0.0"
+    ],
+    [
+      "skill-conversion-claude-to-gemini",
+      "skill-conversion-claude-to-gemini/SKILL.md",
+      "Automates the conversion of Claude 2026 skills to Gemini CLI 2026 directory format.",
+      "1.0.0"
+    ],
+    [
+      "decomposition-recipe-builder",
+      "decomposition-recipe-builder/SKILL.md",
+      "Break down files, documents, scripts into detailed markdown recipes.",
+      "1.0.0"
     ]
   ]
 }
