@@ -77,14 +77,14 @@
       "1.0.0"
     ],
     [
-      "protocol-update",
-      "protocol-update/SKILL.md",
+      "refactor-staged",
+      "refactor-staged/SKILL.md",
       "Rigorous execution framework for staged, persistent codebase refactoring with crash-recovery.",
       "1.0.0"
     ],
     [
-      "writing-architect",
-      "writing-architect/SKILL.md",
+      "writer-doc-architect",
+      "writer-doc-architect/SKILL.md",
       "Architect for 2026 agent-ready documentation stacks including AX-optimized READMEs, llms.txt, and AGENTS.md.",
       "1.0.0"
     ],
@@ -113,10 +113,10 @@
       "1.0.0"
     ],
     [
-      "debugging-doublecheck",
-      "debugging-doublecheck/SKILL.md",
+      "debug-doublecheck",
+      "debug-doublecheck/SKILL.md",
       "Mandatory self-audit protocol to verify fixes and hunt for regressions.",
-      "1.0.0"
+      "1.1.0"
     ],
     [
       "skill-conversion-claude-to-gemini",
@@ -128,6 +128,30 @@
       "decomposition-recipe-builder",
       "decomposition-recipe-builder/SKILL.md",
       "Break down files, documents, scripts into detailed markdown recipes.",
+      "1.0.0"
+    ],
+    [
+      "robot-relay-log",
+      "robot-relay-log/SKILL.md",
+      "Robot Relay log format for version control entries. Structured, minimal commit messages.",
+      "1.0.0"
+    ],
+    [
+      "robot-relay-pack",
+      "robot-relay-pack/SKILL.md",
+      "Robot Relay pack — compress natural language memory files into robot-relay shorthand.",
+      "1.0.0"
+    ],
+    [
+      "robot-relay-scan",
+      "robot-relay-scan/SKILL.md",
+      "Robot Relay scan protocol for code review. Beep-coded findings.",
+      "1.0.0"
+    ],
+    [
+      "robot-relay-crew",
+      "robot-relay-crew/SKILL.md",
+      "Decision guide for delegating to Robot Relay sub-agents.",
       "1.0.0"
     ]
   ]

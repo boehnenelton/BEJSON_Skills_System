@@ -1,0 +1,24 @@
+{
+  "Format": "BEJSON",
+  "Format_Version": "104a",
+  "Format_Creator": "Elton Boehnen",
+  "Records_Type": ["PluginSchema"],
+  "Fields": [
+    {"name": "plugin_id", "type": "string"},
+    {"name": "plugin_name", "type": "string"},
+    {"name": "description", "type": "string"},
+    {"name": "target_glob", "type": "string"},
+    {"name": "check_type", "type": "string"},
+    {"name": "logic", "type": "string"},
+    {"name": "success_msg", "type": "string"},
+    {"name": "failure_msg", "type": "string"}
+  ],
+  "Values": [
+    ["syntax", "Syntax", "Compile check", "*.py", "python", "compile", "Y", "N"],
+    ["secrets", "Security", "Secrets scan", "*", "regex", "(API_KEY|SECRET|PASSWORD)\\s*=\\s*['\"].+", "S", "SEC!"],
+    ["todo", "TODO", "TODO hunter", "*", "regex", "TODO:", ".", "T"],
+    ["fixme", "FIXME", "FIXME hunter", "*", "regex", "FIXME:", ".", "F"],
+    ["complex", "Complexity", "Nested loops/ifs", "*.py,*.js,*.ts", "regex", "(\\s+if|\\s+for|\\s+while).+\\n\\1\\1", "C", "C!"],
+    ["dead_code", "DeadCode", "Print statements", "*.py", "regex", "^\\s*print\\(", ".", "P"]
+  ]
+}
